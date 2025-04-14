@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const Post = require('../models/post');
-const User = require('../models/user');
+const Post = require('../models/post.js');
+const User = require('../models/user.js');
 const AppError = require('../utils/AppError');
 const {verifyToken} = require('../middlewares/auth.js');
 router.get('/', async (req, res) => {
