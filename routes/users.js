@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const User = require('../models/user.js');
+const User = require('../models/User.js');
 const userController = require('../controllers/user.js');
 const { validateSignUp , validateSignIn } = require('../middlewares/validation.js');
 const AppError = require('../utils/AppError.js');
